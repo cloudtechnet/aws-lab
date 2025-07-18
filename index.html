@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cloud Technet</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Cloud Technet</h1>
+    <h2>AWS Lab Practice Portal</h2>
+
+    <div class="section">
+      <label>AWS Lab Console Link:</label>
+      <div class="copy-container">
+        <span id="labLink">https://975049905218.signin.aws.amazon.com/console?region=us-east-1</span>
+        <button onclick="copyToClipboard('labLink')">Copy</button>
+      </div>
+    </div>
+
+    <div class="section">
+      <label>Username:</label>
+      <div class="copy-container">
+        <span id="username">kk_labs_user_920836</span>
+        <button onclick="copyToClipboard('username')">Copy</button>
+      </div>
+    </div>
+
+    <div class="section">
+      <label>Password:</label>
+      <div class="copy-container">
+        <span id="password">G!o1%V50!ANC</span>
+        <button onclick="copyToClipboard('password')">Copy</button>
+      </div>
+    </div>
+
+    <div class="timer-section">
+      <span class="timer-label">This session will expire in:</span>
+      <button id="countdown" class="timer-button">Loading...</button>
+    </div>
+
+    <div class="instructions">
+      <h3>Instructions</h3>
+      <ul>
+        <li>✅ Do use the lab within the allotted 3-hour window</li>
+        <li>✅ Do copy username and password correctly</li>
+        <li>❌ Don’t refresh unless needed – timer is fixed to session</li>
+        <li>❌ Don’t share login with others</li>
+      </ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
