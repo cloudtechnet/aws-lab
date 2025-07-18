@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 25px;
+  background: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 10px;
+}
+
+h1 {
+  color: #1f4ea8;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  font-weight: 400;
+}
+
+.section {
+  margin: 20px 0;
+}
+
+.copy-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #eaf0f9;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.copy-container span {
+  font-weight: 600;
+  color: #0c2c6c;
+}
+
+.copy-container button {
+  background-color: #1f4ea8;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.copy-container button:hover {
+  background-color: #163f88;
+}
+
+.timer-section {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.timer-label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.timer-button {
+  font-size: 20px;
+  padding: 10px 20px;
+  background-color: #ff9f00;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: default;
+}
+
+.instructions {
+  margin-top: 30px;
+}
+
+.instructions h3 {
+  color: #1f4ea8;
+}
+
+.instructions ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.instructions li {
+  padding: 5px 0;
+  font-size: 16px;
+}
